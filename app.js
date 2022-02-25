@@ -4,7 +4,7 @@ const up = document.getElementById('dr-n');
 const down = document.getElementById('dr-s');
 const left = document.getElementById('dr-w');
 const right = document.getElementById('dr-e');
-let poke = null;
+let poke = retro;
 let star = undefined;
 let count = 0;
 //
@@ -46,7 +46,7 @@ while (a){
             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
             a =  false; // Breaks the loop.
-            alert('You have found a Legendary Pokémon'); // Stops the script until hits 'ok'.
+            alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
         } else {
         a = true;
     }
@@ -57,7 +57,7 @@ while (a){
 
 
 // STAR
-// <i class="fas fa-star spicon spib" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is considered a Legendary Pokemon"></i>
+// <i class="fas fa-star spicon spib" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is considered a Retro Pokemon"></i>
 // document.getElementsByClassName("fas fa-star")[0]
 
 
