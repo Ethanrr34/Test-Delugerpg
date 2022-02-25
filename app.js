@@ -4,7 +4,7 @@ const up = document.getElementById('dr-n');
 const down = document.getElementById('dr-s');
 const left = document.getElementById('dr-w');
 const right = document.getElementById('dr-e');
-let poke = null;
+let poke = Retro;
 let star = undefined;
 let count = 0;
 //
@@ -40,13 +40,13 @@ while (a){
     poke = document.getElementById('dexy');
     if (poke != null) {
         console.log(poke.innerText); // Name of the pokémon
-        // Gets the star that shows it's a legendary (if it exists), if not, then = undefined
+        // Gets the star that shows it's a Retro (if it exists), if not, then = undefined
         star = document.getElementsByClassName("fas fa-star spicon spib")[0]
         if (star != undefined){
             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
             a =  false; // Breaks the loop.
-            alert('You have found a Legendary Pokémon'); // Stops the script until hits 'ok'.
+            alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
         } else {
         a = true;
     }
