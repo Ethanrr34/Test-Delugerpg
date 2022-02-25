@@ -5,7 +5,7 @@ const down = document.getElementById('dr-s');
 const left = document.getElementById('dr-w');
 const right = document.getElementById('dr-e');
 let poke = null;
-let star = undefined;
+let retro = undefined;
 let count = 0;
 //
 
@@ -41,7 +41,7 @@ while (a){
     if (poke != null) {
         console.log(poke.innerText); // Name of the pokémon
         // Gets the star that shows it's a Retro (if it exists), if not, then = undefined
-        star = document.getElementsByClassName("fas fa-star spicon spib")[0]
+        retro = document.getElementsByClassName("fas fa-star spicon spib")[0]
         if (star != undefined){
             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
