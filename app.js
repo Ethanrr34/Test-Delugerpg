@@ -4,7 +4,7 @@ const up = document.getElementById('dr-n');
 const down = document.getElementById('dr-s');
 const left = document.getElementById('dr-w');
 const right = document.getElementById('dr-e');
-let poke = Retro;
+let poke = null;
 let star = undefined;
 let count = 0;
 //
