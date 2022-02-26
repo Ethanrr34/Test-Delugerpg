@@ -44,7 +44,8 @@ while (a){
         //star != document.getElementsByClassName("fas fa-star spicon spib")[0]
         //if (star != undefined){
             //a = true;
-            search(Retro)
+            search console.log(Retro)
+        (poke != null) {
         if (Retro!=undefined){
             a = true;
             //const keywords = ["Retro"]
