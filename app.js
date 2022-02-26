@@ -41,11 +41,11 @@ while (a){
     if (poke != null) {
         console.log(poke.innerText); // Name of the pokémon
         // Gets the star that shows it's a legendary (if it exists), if not, then = undefined
-        //star != document.getElementsByClassName("fas fa-star spicon spib")[0]
+        Retro != document.getElementsByClassName("fas fa-star spicon spib")[0]
         //if (star != undefined){
             //a = true;
-            search console.log(Retro)
-        (poke != null) {
+            //search console.log(Retro)
+        if (poke != null) {
         if (Retro!=undefined){
             a = true;
             //const keywords = ["Retro"]
