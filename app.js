@@ -40,9 +40,9 @@ while (a){
     poke = document.getElementById('dexy');
     if (poke != null) {
         console.log(poke.innerText); // Name of the pokémon
-        // Gets the star that shows it's a Retro (if it exists), if not, then = undefined
-        retro = document.getElementsByClassName("fas fa-star spicon spib")[0]
-        if (star != undefined){
+        // Gets the retro that shows it's a Retro (if it exists), if not, then = undefined
+        retro = document.getElementsByClassName("fas fa-retro spicon spib")[0]
+        if (retro != undefined){
             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
             a =  false; // Breaks the loop.
@@ -57,7 +57,7 @@ while (a){
 
 
 // STAR
-// <i class="fas fa-star spicon spib" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is considered a Legendary Pokemon"></i>
+// <i class="fas fa-retro spicon spib" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is considered a Retro Pokemon"></i>
 // document.getElementsByClassName("fas fa-star")[0]
 
 
