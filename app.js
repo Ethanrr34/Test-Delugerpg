@@ -44,10 +44,10 @@ while (a){
         star = document.getElementsByClassName("fas fa-star spicon spib")[0]
         if (star != undefined){
             a = true;
-//             const keywords = ["Retro"]
+            const keywords = ["Retro"]
 
-//             if( keywords.some(keyword => text.includes(keyword) )) {
-//             console.log("Found")
+            if( keywords.some(keyword => text.includes(keyword) )) {
+              console.log("Found")
             
         }
         
@@ -61,7 +61,7 @@ while (a){
     }
     
 }
-//
+
 
 
 // STAR
