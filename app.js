@@ -54,7 +54,7 @@ while (a){
             
         }
         
-        else {
+        {
 
             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
