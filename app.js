@@ -42,7 +42,7 @@ while (a){
         console.log(poke.innerText); // Name of the pokémon
         // Gets the star that shows it's a legendary (if it exists), if not, then = undefined
         star = document.getElementsByClassName("fas fa-star spicon spib")[0]
-        if (star != undefined){
+        if (star == undefined){
             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
             a =  false; // Breaks the loop.
