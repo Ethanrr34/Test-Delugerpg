@@ -38,7 +38,7 @@ while (a){
     await new Promise(r => setTimeout(r, 3000));
     // Gets the pokémon element (if it exists), if not, then = null
     poke = document.getElementById('dexy');
-    if (poke != null) {
+    //if (poke != null) {
         console.log(poke.innerText); // Name of the pokémon
         // Gets the star that shows it's a legendary (if it exists), if not, then = undefined
         //star != document.getElementsByClassName("fas fa-star spicon spib")[0]
