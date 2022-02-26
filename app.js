@@ -41,7 +41,7 @@ while (a){
     if (poke != null) {
         console.log(poke.innerText); // Name of the pokémon
         // Gets the retro that shows it's a Retro (if it exists), if not, then = undefined
-        retro = document.getElementsByClassName("fas fa-retro spicon spib")[0]
+        retro = document.getElementsByClassName("fas fa-star spicon spib")[0]
         if (retro != undefined){
             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
