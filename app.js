@@ -1,5 +1,5 @@
 // Copy this part first
-let a = true
+//let a = true
 const up = document.getElementById('dr-n');
 const down = document.getElementById('dr-s');
 const left = document.getElementById('dr-w');
