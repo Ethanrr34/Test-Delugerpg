@@ -49,16 +49,9 @@ while (a){
         //if (Retro!=undefined){
             //a = true;
             const keywords = ["Retro"]
-
+             if( keywords.some(keyword => text.excludes(keyword) ))[0]  
             if( keywords.some(keyword => text.includes(keyword) )) {
-              console.log("Found") 
-            if( keywords.some(keyword => text.excludes(keyword) ))[0]  
-                
-        }
-        
-        {
-
-            const c = document.querySelector('.btn-catch-action') // Catch button
+             const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
             a =  false; // Breaks the loop.
             alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
@@ -66,7 +59,12 @@ while (a){
         }
     }
     
-}
+          
+           
+                
+        
+       
+        
 
 
 
