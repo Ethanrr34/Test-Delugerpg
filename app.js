@@ -49,7 +49,8 @@ while (a){
         //if (Retro!=undefined){
             //a = true;
             const keywords = ["Retro"]
-             if( keywords.some(keyword => text.excludes(keyword) ))[0]  
+             if( keywords.some(keyword => text.excludes(keyword) ))
+             a = true;
             if( keywords.some(keyword => text.includes(keyword) )) {
              const c = document.querySelector('.btn-catch-action') // Catch button
             c.click()
