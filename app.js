@@ -52,7 +52,7 @@ while (a){
 
             if( keywords.some(keyword => text.includes(keyword) )) {
               console.log("Found") 
-            if( keywords.some(keyword => text.excludes(keyword) ))[0] { 
+            if( keywords.some(keyword => text.excludes(keyword) ))[0]  
                 
         }
         
