@@ -52,7 +52,8 @@ while (a){
 
             if( keywords.some(keyword => text.includes(keyword) )) {
               console.log("Found")
-            voidloop
+            if (poke != null){
+             <head>       
         }
         
         {
@@ -61,6 +62,7 @@ while (a){
             c.click()
             a =  false; // Breaks the loop.
             alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
+            
         }
     }
     
