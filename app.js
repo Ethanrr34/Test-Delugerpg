@@ -81,3 +81,6 @@ while (a){
 // <input type="radio" name="selectitem" value="masterball" id="item-masterball">
 
 // <input class="btn-battle-action" type="submit" value="Throw Pokeball" name="useitem_">
+           }
+      }
+ }
