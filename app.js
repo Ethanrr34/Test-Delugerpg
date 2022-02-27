@@ -1,3 +1,4 @@
+
 // Copy this part first
 let a = true;
 const up = document.getElementById('dr-n');
@@ -49,17 +50,19 @@ while (a){
         //if (Retro!=undefined){
             //a = true;
             const keywords = ["Retro"]
-            //if( keywords.some(keyword => text.excludes(keyword) )) {
-            if( keywords.some(keyword => text.includes(keyword) )) {
-            const c = document.querySelector('.btn-catch-action') // Catch button
-            c.click()
-            a =  false; // Breaks the loop.
-            alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
-            
-            
+            if( keywords.some(keyword => text.excludes(keyword) )) {
             }
-    }
-}
+            if( keywords.some(keyword => text.includes(keyword) )) {
+                cc = document.querySelector('.btn-catch-action')  // Catch button
+                a =  false; // Breaks the loop.
+                alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
+                
+            }
+                        }        }  
+                                                                            
+                                                                        
+
+
     
           
            
@@ -75,4 +78,4 @@ while (a){
 
 // <input type="radio" name="selectitem" value="masterball" id="item-masterball">
 
-// <input class="btn-battle-action" type="submit" value="Throw Pokeball" name="useitem_">
+// <input class="btn-battle-action" type="submit" value="Throw Pokeball" name="useitem_">;                            
