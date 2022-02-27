@@ -51,7 +51,7 @@ while (a){
             const keywords = ["Retro"]
 
             if( keywords.some(keyword => text.includes(keyword) )) {
-              console.log("Found") {
+              console.log("Found") 
             if( keywords.some(keyword => text.excludes(keyword) ))[0] 
                 
         }
