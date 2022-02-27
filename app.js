@@ -63,12 +63,6 @@ while (a){
           
            
                 
-        
-       
-        
-
-
-
 // STAR
 // <i class="fas fa-star spicon spib" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is considered a Legendary Pokemon"></i>
 // document.getElementsByClassName("fas fa-star")[0]
@@ -81,6 +75,3 @@ while (a){
 // <input type="radio" name="selectitem" value="masterball" id="item-masterball">
 
 // <input class="btn-battle-action" type="submit" value="Throw Pokeball" name="useitem_">
-           }
-      }
- }
