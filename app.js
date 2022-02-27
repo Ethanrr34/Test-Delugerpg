@@ -1,5 +1,5 @@
 // Copy this part first
-let a = true
+let a = true;
 const up = document.getElementById('dr-n');
 const down = document.getElementById('dr-s');
 const left = document.getElementById('dr-w');
@@ -49,15 +49,15 @@ while (a){
         //if (Retro!=undefined){
             //a = true;
             const keywords = ["Retro"]
-             if( keywords.some(keyword => text.excludes(keyword) ))
-             a = true;
+            //if( keywords.some(keyword => text.excludes(keyword) )) {
             if( keywords.some(keyword => text.includes(keyword) )) {
-             const c = document.querySelector('.btn-catch-action') // Catch button
-            c.click()
-            a =  false; // Breaks the loop.
-            alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
+                const c = document.querySelector('.btn-catch-action') // Catch button
+                c.click()
+                //a =  false; // Breaks the loop.
+                alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
             
-        }
+            
+            }
     }
 }
     
