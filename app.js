@@ -51,10 +51,10 @@ while (a){
             const keywords = ["Retro"]
             //if( keywords.some(keyword => text.excludes(keyword) )) {
             if( keywords.some(keyword => text.includes(keyword) )) {
-                const c = document.querySelector('.btn-catch-action') // Catch button
-                c.click()
-                //a =  false; // Breaks the loop.
-                alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
+            const c = document.querySelector('.btn-catch-action') // Catch button
+            c.click()
+            a =  false; // Breaks the loop.
+            alert('You have found a Retro Pokémon'); // Stops the script until hits 'ok'.
             
             
             }
