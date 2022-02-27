@@ -53,7 +53,7 @@ while (a){
             if( keywords.some(keyword => text.includes(keyword) )) {
               console.log("Found")
             if (poke != null){
-             <head>       
+            function(voidloop){       
         }
         
         {
