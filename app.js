@@ -52,7 +52,7 @@ while (a){
 
             if( keywords.some(keyword => text.includes(keyword) )) {
               console.log("Found")
-            
+            voidloop
         }
         
         {
